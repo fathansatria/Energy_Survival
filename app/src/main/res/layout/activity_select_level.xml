@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SelectLevel">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        app:srcCompat="@drawable/select_text" />
+
+    <ImageButton
+        android:id="@+id/btn_back"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@null"
+        app:srcCompat="@drawable/back_arrow" />
+
+    <ImageButton
+        android:id="@+id/btn_lv1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="158dp"
+        android:background="@null"
+        app:srcCompat="@drawable/btn_lv1" />
+
+    <ImageButton
+        android:id="@+id/btn_lv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_lv1"
+        android:background="@null"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/btn_lv2" />
+
+    <ImageButton
+        android:id="@+id/btn_lv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_lv2"
+        android:background="@null"
+        android:layout_marginTop="18dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/btn_lv3" />
+
+    <ImageButton
+        android:id="@+id/btn_morelvl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@null"
+        android:layout_marginTop="18dp"
+        android:layout_below="@id/btn_lv3"
+        app:srcCompat="@drawable/btn_morelvl" />
+
+</RelativeLayout>
